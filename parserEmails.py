@@ -2,15 +2,15 @@ import smtplib
 import json
 
 def send_email(email_data):
-    from_email = 'organizacioncama@gmail.com'  # Replace with your email address
-    password = "bhdw tqrz rhzy vnfz"  # Replace with your email password
+    from_email = ''  # Replace with email address
+    password = ""  # Replace with email password
 
     to_email = email_data['to_email']
     subject = email_data['subject']
     message = email_data['message']
 
     try:
-        server = smtplib.SMTP('smtp.gmail.com', 587)
+        server = smtplib.SMTP() # Use whatever SMTP port you want.
         server.starttls()
         server.login(from_email, password)
         body = f'Subject: {subject}\n\n{message}'
