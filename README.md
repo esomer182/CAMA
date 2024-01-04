@@ -1,2 +1,2 @@
 # CAMA
-Material for the CAMA contest
+This mainly covers the scripts used to set up the DOMjudge for the contest.
