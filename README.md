@@ -3,4 +3,4 @@ CAMA (Amateur Competition in Mathematics and Algorithms) is an initiative aimed 
 In CAMA, we not only organize challenging competitions but also commit to providing learning opportunities for students, both newcomers and experienced in mathematics and programming. We believe that everyone has the potential to learn and improve in these areas.
 You can read more about CAMA here: https://www.camacontest.online/en/about
 
-This repository mainly covers the scripts used to set up the DOMjudge for the contest.
+This repository mainly covers the scripts used to set up the DOMjudge for the contest and the code for the website.
